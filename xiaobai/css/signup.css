@@ -1,0 +1,83 @@
+#signup {
+    width: 25%;
+    height: 66.532%;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    right: 5.833%;
+    top: 2px;
+}
+
+.title {
+    font-size: 15.6px;
+    text-align: center;
+    padding: 2px;
+}
+
+.select {
+    margin: 0 4%;
+    border-bottom: 1px solid rgb(167, 167, 167)
+}
+
+.select>.login , .select>.register{
+    font-size: 20px;
+    padding: 0 8.148%;
+    cursor: pointer;
+}
+
+.select>.login {
+    border-bottom: 2px solid rgb(89, 163, 117);
+}
+
+input {
+    width: 78%;
+    height: 9.09%;
+    margin: 3.33% 8.667% 3.33% 1.667%;
+    font-size: 16px;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+
+.userimg, .passimg {
+    position: relative;
+    width: 7%;
+    top: 8px;
+    left: 10%;
+}
+@media only screen and (min-width : 1680px) {
+    .userimg, .passimg {
+        top: 15px;
+    } 
+}
+#autoSign {
+    width: 12px;
+    height: 12px;
+    margin-right: 5%;
+    margin-left: 8.667%;
+    box-sizing: content-box;
+    border: 3px solid black;
+}
+
+.auto-sign>span {
+    font-size: 14px;
+}
+
+.lgnbtn {
+    width: 78%;
+    height: auto;
+    padding: 10px 0;
+    background-color: rgb(0, 167, 52);
+    border: 0px;
+    color: white;
+    margin-left: 8.667%;
+}
+
+.forget {
+    width: 78%;
+    font-size: 16px;
+    margin: 16px 8.667% 0px 8.667%;
+    padding-left: 57.3%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}

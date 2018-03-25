@@ -1,0 +1,99 @@
+*{
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    width: 100%;
+    height: 650px;
+}
+
+body {
+    width: 100%;
+    height: 650px;
+    min-width: 800px;
+}
+
+.top {
+    width: 100%;
+}
+
+.menu {
+    min-width: 27%;
+    position: relative;
+    float: right;
+}
+
+.phead {
+    width: 12.667%;
+    height: auto;
+    margin: 4.333% 4.333% 4% 0;
+}
+
+.center {
+    width: 100%;
+    background: linear-gradient( rgb(67,255,125), rgb(0,193,23));
+    position: relative;
+}
+
+.menu>.selects {
+    width: 238px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 6% 0 0;
+}
+
+.selects>span {
+    cursor: pointer;
+}
+
+.menu>.selects>span {
+    font-size: 15.29px;
+}
+
+.menu>.selects>.register {
+    margin: 0 10% 0 9px;
+    padding-left: 9px;
+    border-left: 1px solid black;
+}
+
+.help {
+    margin: 0 10% 0 0;
+}
+
+.shadow {
+    width: 92.334%;
+    height: auto;
+    margin: 6.8333% 0 2.833% 12.76%;
+}
+
+.font {
+    width: 44.16%;
+    height: auto;
+    margin: 6% 0 0 11%;
+}
+
+.img {
+    display: inline-block;
+    width: 50.01%;
+}
+
+.bottom {
+    width: 100%;
+    height: 91px;
+    text-align: center;
+}
+
+.slogan {
+    width: 38.167%;
+    height: auto;
+}
+
+.logo {
+    width: 29.66%;
+    height: auto;
+    margin: 2.167% 0px 3% 10.5%;
+}

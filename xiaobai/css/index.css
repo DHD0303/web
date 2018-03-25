@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    width: 50px;
+    margin: 10px 0;
+}
+
+a span {
+    display: none;
+}
+
+.delete {
+    width: 50px;
+}
+
+.rename {
+    width: 80px;
+}
+
+.name {
+    width: 200px;
+}
+
+.download {
+    margin: 10px 10px;
+    width: 50px;
+}
+
+#new_file {
+    width: 100px;
+    margin-left: 200px;
+}
+.new_name {
+    width: 200px;
+    position: relative;
+    right: 400px;
+}
+
+form {
+    display: inline-block;
+}
+
+#classify_view {
+    margin-left: 20px;
+}
